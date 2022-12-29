@@ -9,8 +9,8 @@ app.set("view engine", "pug");
 app.use(express.static("public"));
 
 const redirect_uri = "http://localhost:3000/callback";
-const client_id = "";
-const client_secret = "";
+const client_id = "bc138b8d2f814b4d881e26d13cccbf72";
+const client_secret = "dd8bea225a2041c28b59846c68adee10";
 
 global.access_token;
 
